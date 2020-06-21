@@ -1,24 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
+import linkedinLogo from './linkedin.png';
+import githubLogo from './github.png';
 import './App.scss';
 
 const App: React.FC = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
+      <div className="Socials">
+        <a href="https://github.com/wilmol" target="_blank" rel="noopener noreferrer">
+          <img src={githubLogo} className="Social-logo" alt="github logo and link" />
         </a>
-      </header>
+        <a href="https://www.linkedin.com/in/molloywill/" target="_blank" rel="noopener noreferrer">
+          <img src={linkedinLogo} className="Social-logo" alt="linkedin logo and link" />
+        </a>
+      </div>
     </div>
   );
 };
