@@ -14,6 +14,7 @@
 
 [![github](https://img.shields.io/badge/-wilmol-black?style=flat-square&logo=GitHub&logoColor=white&link=https://github.com/wilmol)](https://github.com/wilmol)
 [![linkedin](https://img.shields.io/badge/-molloywill-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/molloywill/)](https://www.linkedin.com/in/molloywill/) 
+[![leetcode](https://img.shields.io/badge/-wilmol-black?style=flat-square&logo=LeetCode&link=https://leetcode.com/wilmol/)](https://leetcode.com/wilmol/)
 [![email](https://img.shields.io/badge/-willjoemolloy@gmail.com-red?style=flat-square&logo=Gmail&logoColor=white&link=mailto:willjoemolloy@gmail.com)](mailto:willjoemolloy@gmail.com)
 
 <!-- 
