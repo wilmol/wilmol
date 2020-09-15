@@ -7,7 +7,7 @@
 
 <div>
   <img height="170" align="left" src="https://github-readme-stats.vercel.app/api?username=wilmol&count_private=true&include_all_commits=true&show_icons=true" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=wilmol&count_private=true&layout=compact" /> <!-- TODO exclude generated code... waiting on https://github.com/anuraghazra/github-readme-stats/pull/307 -->
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=wilmol&layout=compact&hide=ShaderLab,HLSL,HTML,TSQL&langs_count=10" /> <!-- TODO not replacing hidden languages... waiting on https://github.com/anuraghazra/github-readme-stats/pull/307 -->
 </div>
 
 ##
