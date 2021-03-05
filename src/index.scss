@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
 body {
   margin: 0;
   font-family:
@@ -16,12 +18,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
+h1,
+p {
   font-family:
-    source-code-pro,
-    Menlo,
-    Monaco,
-    Consolas,
-    'Courier New',
-    monospace;
+    'Lato',
+    sans-serif;
 }
