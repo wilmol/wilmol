@@ -1,21 +1,25 @@
 import React from 'react';
-import linkedinLogo from './linkedin.png';
-import githubLogo from './github.png';
 import './App.scss';
+import github from './assets/images/github.svg';
+import linkedin from './assets/images/linkedin.svg';
+import leetcode from './assets/images/leetcode.svg';
 
 const App: React.FC = () => {
   return (
-    <div className="App">
-      <div className="Title">
+    <div className="main">
+      <div>
         <h1>Will Molloy</h1>
         <p>Software Engineer</p>
       </div>
-      <div className="Socials">
+      <div className="links">
         <a href="https://github.com/wilmol" target="_blank" rel="noopener noreferrer">
-          <img src={githubLogo} className="Social-logo" alt="github logo and link" />
+          <img src={github} className="link-image" alt="Will's GitHub page" />
+        </a>
+        <a href="https://leetcode.com/wilmol/" target="_blank" rel="noopener noreferrer">
+          <img src={leetcode} className="link-image" alt="Will's LeetCode page" />
         </a>
         <a href="https://www.linkedin.com/in/molloywill/" target="_blank" rel="noopener noreferrer">
-          <img src={linkedinLogo} className="Social-logo" alt="linkedin logo and link" />
+          <img src={linkedin} className="link-image" alt="Will's LinkedIn page" />
         </a>
       </div>
     </div>

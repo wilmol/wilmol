@@ -1,4 +1,6 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+.main {
   text-align: center;
   background-color: #282c34;
   min-height: 100vh;
@@ -10,14 +12,22 @@
   color: white;
 }
 
-.Socials {
+.links {
   display: flex;
   flex-direction: row;
   padding: 20px;
 }
 
-.Social-logo {
+.link-image {
   height: 7vmin;
   pointer-events: none;
   padding: 15px;
+}
+
+h1,
+p {
+  font-family:
+    'Lato',
+    'Helvetica',
+    sans-serif;
 }
