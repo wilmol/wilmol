@@ -19,13 +19,20 @@
 }
 
 svg {
-  width: 70px;
-  height: 70px;
-  padding: 15px;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  fill: none;
+  stroke: black;
+  stroke-width: 1px;
+  stroke-linejoin: round;
 }
 
 svg:hover {
-  fill: red;
+  fill: none;
+  stroke: maroon;
+  stroke-width: 1px;
+  stroke-linejoin: round;
 }
 
 h1,
