@@ -5,12 +5,16 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  width: 100%;
-  background-repeat: no-repeat, repeat;
+  width: 100vw;
+  background-image: url("https://i.imgur.com/9bx5o5u.jpeg");
+  background-color: #ccc; // used if image is unavailable
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .main {
-  padding: 80px;
+  padding: calc(60px + 2vmin);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -40,7 +44,7 @@ svg:hover {
 h1,
 h2,
 p {
-  padding: 12px;
+  padding: calc(6px + 0.5vmin);
   margin: 0;
   font-family:
     'Lato',
