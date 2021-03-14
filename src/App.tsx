@@ -9,7 +9,7 @@ const App: React.FC = () => {
         <p>Software Engineer</p>
         <div>
           <a href="https://github.com/wilmol" target="_blank" rel="noopener noreferrer">
-            <svg viewBox="-25 -25 50 50">
+            <svg viewBox="-30 -30 60 60">
               <circle r="48%" />
               {/* https://simpleicons.org/icons/github.svg */}
               <path
@@ -20,7 +20,7 @@ const App: React.FC = () => {
           </a>
 
           <a href="https://leetcode.com/wilmol/" target="_blank" rel="noopener noreferrer">
-            <svg viewBox="-25 -25 50 50">
+            <svg viewBox="-30 -30 60 60">
               <circle r="48%" />
               {/* https://simpleicons.org/icons/leetcode.svg */}
               <path
@@ -35,7 +35,7 @@ const App: React.FC = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <svg viewBox="-25 -25 50 50">
+            <svg viewBox="-30 -30 60 60">
               <circle r="48%" />
               {/* https://simpleicons.org/icons/linkedin.svg */}
               <path
