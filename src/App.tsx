@@ -30,11 +30,7 @@ const App: React.FC = () => {
             </svg>
           </a>
 
-          <a
-            href="https://www.linkedin.com/in/molloywill/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="https://linkedin.com/in/molloywill/" target="_blank" rel="noopener noreferrer">
             <svg viewBox="-30 -30 60 60">
               <circle r="48%" />
               {/* https://simpleicons.org/icons/linkedin.svg */}
